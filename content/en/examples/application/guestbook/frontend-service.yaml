@@ -10,7 +10,7 @@ spec:
   ports:
   - name: "frontend-service"
     port: 80
-    nodePort: 8080
+    nodePort: 30080
   selector:
     app.kubernetes.io/name: guestbook
     app.kubernetes.io/component: frontend
